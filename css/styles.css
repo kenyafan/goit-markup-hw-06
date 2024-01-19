@@ -873,10 +873,10 @@ a {
   /* #endregion */
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767.98px) {
   /* #region Header */
   .container {
-    max-width: 320px;
+    width: 320px;
   }
   .logo {
     padding: 16px 0;
@@ -1026,7 +1026,7 @@ a {
   .modal {
     width: 288px;
     height: 623px;
-    padding: 72px 24px 24px;
+    padding: 72px 16px 24px;
   }
   /* #endregion */
 
@@ -1111,4 +1111,7 @@ a {
     fill: #f4f4fd;
   }
   /* #endregion */
+}
+
+@media (min-resolution: 192dpi) {
 }
