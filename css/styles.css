@@ -782,6 +782,7 @@ a {
   .container {
     max-width: 768px;
     padding: 0 16px;
+    margin: 0 auto;
   }
   .logo {
     margin-right: 120px;
@@ -938,6 +939,7 @@ a {
   .container {
     width: 320px;
     padding: 0 16px;
+    margin: 0 auto;
   }
   .logo {
     padding: 16px 0;
