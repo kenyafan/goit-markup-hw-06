@@ -1,4 +1,4 @@
-
+// Backdrop
 document.addEventListener('DOMContentLoaded', function() {
   const reviewsBtn = document.querySelector('.button');
   const modalCloseBtn = document.querySelector('.close-btn');
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     backdrop.classList.remove('is-open');
   });
 });
-
+// mobile menu
 const menuBtn = document.querySelector('.mobil-menu-btn'); 
 const mobileCloseBtn = document.querySelector('.close-btn.mobile-close');
 const mobileMenu = document.querySelector('.mobile-menu');
